@@ -14,6 +14,7 @@
         error ? 'border-red-500 focus:border-red-500 focus:ring-red-500/20' : '',
         customClass,
       ]"
+      :readonly="readonly"
       @input="handleInput"
     />
     <span v-if="error" class="text-sm text-red-500">{{ error }}</span>
@@ -48,6 +49,10 @@ export default {
     customClass: {
       type: String,
       default: '',
+    },
+    readonly: {
+      type: Boolean,
+      default: false,
     },
   },
   emits: ['update:value'],
