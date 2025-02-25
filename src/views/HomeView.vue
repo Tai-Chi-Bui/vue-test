@@ -1,5 +1,3 @@
-<script setup lang="ts"></script>
-
 <template>
   <main class="flex flex-col justify-start items-center gap-5 h-screen mt-10">
     <h1 class="text-4xl font-bold">Home</h1>

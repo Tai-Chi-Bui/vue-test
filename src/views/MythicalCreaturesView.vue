@@ -1,6 +1,15 @@
-<script setup lang="ts">
+<script lang="ts">
 import YiLong from '@/assets/mythical-creatures/yi-long.png'
 import ZhuLong from '@/assets/mythical-creatures/zhu-long.png'
+
+export default {
+  data() {
+    return {
+      YiLong,
+      ZhuLong,
+    }
+  },
+}
 </script>
 
 <template>

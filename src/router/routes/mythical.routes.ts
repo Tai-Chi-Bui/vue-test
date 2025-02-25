@@ -4,7 +4,7 @@ export const mythicalRoutes: RouteRecordRaw[] = [
   {
     path: '/mythical-creatures',
     name: 'mythical',
-    component: () => import('@/views/MythicalCreatures.vue'),
+    component: () => import('@/views/MythicalCreaturesView.vue'),
     meta: {
       title: 'Mythical Creatures',
       requiresAuth: false,
