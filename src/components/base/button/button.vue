@@ -27,10 +27,6 @@ export default {
       default: 'button',
       validator: (value: string) => ['button', 'submit', 'reset'].includes(value),
     },
-    customClass: {
-      type: String,
-      default: '',
-    },
     variant: {
       type: String,
       default: 'primary',
@@ -39,6 +35,10 @@ export default {
     disabled: {
       type: Boolean,
       default: false,
+    },
+    customClass: {
+      type: String,
+      default: '',
     },
   },
   emits: ['click'],
